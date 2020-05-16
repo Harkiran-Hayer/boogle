@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> boogle </title>
+
+</head>
+<style>
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        border: 1px solid black;
+        float: left;
+    }
+
+    .flex-container>div {
+        width: 60px;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .flex-container1 {
+        display: flex;
+        flex-direction: row-reverse;
+        border: 1px solid red;
+        margin-top: 5px;
+    }
+
+    .flex-container1>div {
+        float: right;
+        width: 50px;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .main {
+        float: center;
+        height: 800px;
+        min-width: 100px;
+        position: center;
+    }
+
+    .main1 {
+        float: center;
+        height: 600px;
+        position: center;
+    }
+
+
+    #bottom {
+        position: absolute;
+        bottom: 0;
+        left: 400px;
+    }
+
+    #bottom1 {
+        position: absolute;
+        bottom: 0;
+        left: 600px;
+    }
+
+    #bottom2 {
+        position: absolute;
+        bottom: 0;
+        left: 800px;
+    }
+
+    #bottom3 {
+        position: fixed;
+        bottom: 0;
+        left: 600px;
+    }
+
+    .nav {
+        /* display: flex;  */
+       
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <header class="nav">
+
+        <div class="flex-container">
+            <div><a>Webs</a></div>
+            <div><a href="#">Images</a></div>
+            <div><a href="#">Maps</a></div>
+            <div><a href="#">News</a></div>
+            <div><a href="#">More</a></div>
+        </div>
+
+        <div class="flex-container1">
+            <div><a href="#">iboogle</a></div>
+            <div><a href="#">Sign In</a></div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div id="bottom"><a href="#">Advertising Programs</a></div>
+        <div id="bottom1"><a href="#">Business solution</a></div>
+        <div id="bottom2"><a href="#">About Boogle</a></div>
+        <div class="main1">
+            <div id="bottom3"><a>(c) 2008 Boogle</a></div>
+        </div>
+</body>
+
+</html>
