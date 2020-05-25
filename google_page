@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> boogle </title>
+</head>
+<style>
+    body {
+        font-size: 18px;
+    }
+
+    .flex-container {
+        flex-wrap: nowrap;
+        width: 98%;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .menu {
+        float: left;
+        padding: 0px 0;
+        width: auto;
+    }
+
+    .menu li {
+        list-style: none;
+        width: auto;
+        float: left;
+        padding: 0 15px;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: #666666 !important;
+    }
+
+
+    .menu li a {
+        width: auto;
+        float: left;
+        color: #666666 !important;
+        padding: 0px 0 0 0;
+        font-family: 'Lato', sans-serif;
+        text-transform: none;
+        text-decoration: none;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .menu li a:hover {
+        color: #ee1c25 !important;
+    }
+
+    .image {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .image img {
+        max-height: 80px;
+    }
+
+    .form input[type=text] {
+        float: left;
+        padding: 11px;
+        border: none;
+        margin-top: 0;
+        margin-right: 0;
+        font-size: 17px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form {
+        margin: 0 auto;
+        display: table;
+        width: auto;
+    }
+
+    .fo {
+        float: left;
+        width: 400px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    .fotmenu {
+        float: right;
+        padding: 0 0;
+        width: auto;
+        margin: 0px -267px;
+    }
+
+    .fotmenu li {
+        list-style: none;
+        width: 100%;
+        float: left;
+        padding: 0 0px;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: #666666 !important;
+    }
+
+    .fotmenu li a {
+        width: 100%;
+        float: left;
+        color: #666666 !important;
+        padding: 0px 0 0 0;
+        font-family: 'Lato', sans-serif;
+        text-transform: none;
+        text-decoration: none;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .fotmenu li a:hover {
+        color: #ee1c25 !important;
+    }
+
+    .menu1 {
+        padding: 20px 0;
+        width: auto;
+        margin: 0 auto;
+        display: table;
+    }
+
+    .menu1 li {
+        list-style: none;
+        width: auto;
+        float: left;
+        padding: 10px 15px;
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: #666666 !important;
+        border: 1px solid #333;
+        margin: 0 10px;
+    }
+
+    .menu1 li a {
+        width: auto;
+        float: left;
+        color: #666666 !important;
+        padding: 0px 0 0 0;
+        font-family: 'Lato', sans-serif;
+        text-transform: none;
+        text-decoration: none;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .menu1 li a:hover {
+        color: #ee1c25 !important;
+    }
+
+    .bottom3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <!-- TOP-->
+    <header class="nav">
+        <div class="flex-container">
+            <ul class="menu">
+                <li><a href="#">Webs</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+            <ul class="menu" style="float:right;">
+                <li><a href="#">iboogle</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <div class="image"> <img src="google.png" alt=""> </div>
+            <div class="form">
+                <div class="fo">
+                    <label for="form-search"></label>
+                    <input type="text" id="form-search" placeholder="Search or type URL">
+                </div>
+                <div class="for_tex">
+                    <ul class="fotmenu">
+                        <li><a href="#">Advanced Search</a></li>
+                        <li><a href="#">Preferences</a></li>
+                    </ul>
+                </div>
+                <ul class="menu1">
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Preferences</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <ul class="menu" style=" margin:0 auto; float:none; display:table; width:auto; margin-top:200px;">
+            <li><a href="#">Advertising Programs</a></li>
+            <li><a href="#">Business Solutions </a></li>
+            <li><a href="#">About Boogle</a></li>
+        </ul>
+        <div class="main1">
+            <div class="bottom3"><a>(c) 2008 Boogle</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
